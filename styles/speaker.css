@@ -60,7 +60,6 @@ header img {
     background-color: #800000;
     color: white;
     font-weight: bold;
-    transition: background-color 0.3s ease; /* Added transition for hover effect */
 }
 #nav_menu ul ul {
     display: none;
@@ -124,6 +123,18 @@ article img {
     border: 1px solid black;
 }
 
+/* the styles for the figure */
+figure {
+    margin: 1em 0; /* Add some margin above and below the figure */
+    text-align: center; /* Center-align the figure content */
+}
+figcaption {
+    font-style: italic; /* Italicize the caption text */
+    margin-top: 0.5em; /* Space above the caption */
+    color: #800000; /* Set the caption color */
+    padding: 0 10px; /* Add some padding for better readability */
+}
+
 /* the styles for the aside */
 aside {
     width: 215px;
@@ -152,22 +163,4 @@ footer p {
     text-align: center;
     color: white;
     padding: 1em 0;
-}
-
-/* Styles for figure and figcaption */
-figure {
-    margin: 1.5em 0; /* Add margin to the figure for spacing */
-    text-align: center; /* Center-align the content */
-}
-
-figure img {
-    max-width: 100%; /* Ensure the image is responsive */
-    height: auto; /* Maintain the aspect ratio */
-    border: 2px solid #800000; /* Optional: add a border to the image */
-}
-
-figcaption {
-    font-style: italic; /* Italicize the caption text */
-    margin-top: 0.5em; /* Space above the caption */
-    color: #800000; /* Set the caption color */
 }
