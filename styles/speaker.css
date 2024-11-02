@@ -1,4 +1,4 @@
-/* the styles for the elements */
+/* Basic Reset */
 * {
     margin: 0;
     padding: 0;
@@ -21,7 +21,7 @@ a:focus, a:hover {
     font-style: italic;
 }
 
-/* the styles for the header */
+/* Header Styles */
 header {
     padding: 1.5em 0 2em 0;
     border-bottom: 3px solid #931420;
@@ -48,7 +48,7 @@ header img {
     text-shadow: 2px 2px 2px #800000;
 }
 
-/* the styles for the navigation menu */
+/* Navigation Menu Styles */
 #nav_menu ul {
     list-style-type: none;
     margin: 0;
@@ -91,12 +91,12 @@ header img {
     display: block;
 }
 
-/* the styles for the main content */
+/* Main Content Styles */
 main {
     clear: left;
 }
 
-/* the styles for the section */
+/* Section Styles */
 section {
     width: 525px;
     float: right;
@@ -127,7 +127,7 @@ section li {
     padding-bottom: .35em;
 }
 
-/* the styles for the article */
+/* Article Styles */
 article {
     padding: .5em 0;
 }
@@ -143,7 +143,7 @@ article img {
     border: 1px solid black;
 }
 
-/* the styles for the aside */
+/* Aside Styles */
 aside {
     width: 215px;
     float: right;
@@ -165,7 +165,7 @@ aside img {
     padding-bottom: 1em;
 }
 
-/* the styles for the footer */
+/* Footer Styles */
 footer {
     background-color: #931420;
     clear: both;
@@ -177,9 +177,10 @@ footer p {
     padding: 1em 0;
 }
 
-/* New styles for figure and figcaption */
+/* Figure and Figcaption Styles */
 figure {
     margin: 0; /* Remove default margin for figure */
+    text-align: center; /* Center-align the text in the caption */
 }
 
 figure img {
@@ -191,10 +192,9 @@ figcaption {
     font-size: 90%; /* Adjust font size if necessary */
     color: #555; /* Change text color for better visibility */
     margin-top: 0.5em; /* Add space above the caption */
-    text-align: center; /* Center-align the caption text */
 }
 
-/* Responsive design */
+/* Responsive Design */
 @media (max-width: 768px) {
     body {
         width: 90%; /* Change width for smaller screens */
