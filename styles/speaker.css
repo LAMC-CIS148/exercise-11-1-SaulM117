@@ -114,19 +114,6 @@ section p {
     padding-bottom: .5em;
 }
 
-section blockquote {
-    padding: 0 2em;
-    font-style: italic;
-}
-
-section ul {
-    padding: 0 0 .25em 1.25em;
-}
-
-section li {
-    padding-bottom: .35em;
-}
-
 /* Article Styles */
 article {
     padding: .5em 0;
@@ -190,7 +177,7 @@ figure img {
 
 figcaption {
     font-size: 90%; /* Adjust font size if necessary */
-    color: #555; /* Change text color for better visibility */
+    color: black; /* Set text color to black */
     margin-top: 0.5em; /* Add space above the caption */
 }
 
