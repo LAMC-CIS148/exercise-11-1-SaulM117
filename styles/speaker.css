@@ -116,15 +116,10 @@ article h2 {
     font-size: 115%;
     padding: 0 0 .25em 0;
 }
-article img {
-    float: right;
-    margin: .5em 0 1em 1em;
-    border: 1px solid black;
-}
 
 /* the styles for the figure and figcaption */
 figure {
-    margin: 0 0 1em 0; /* Margin at the bottom for spacing */
+    margin: 1em 0; /* Margin for spacing */
     text-align: center; /* Center the caption */
 }
 
