@@ -126,7 +126,14 @@ article img {
 figure {
     margin: 0; /* Remove default margin */
     text-align: center; /* Center the caption */
+    overflow: hidden; /* Clear floats */
 }
+
+figure img {
+    display: block; /* Prevent floating */
+    margin: 0 auto; /* Center the image */
+}
+
 figcaption {
     margin-top: 0.5em; /* Space between image and caption */
     font-size: 90%; /* Adjust font size if necessary */
