@@ -3,9 +3,11 @@
     margin: 0;
     padding: 0;
 }
+
 html {
     background-color: white;
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 100%;
@@ -14,9 +16,11 @@ body {
     border: 3px solid #931420;
     background-color: #fffded;
 }
+
 a:focus, a:hover {
     font-style: italic;
 }
+
 /* the styles for the header */
 header {
     padding: 1.5em 0 2em 0;
@@ -24,21 +28,26 @@ header {
     background-image: linear-gradient(
         30deg, #f6bb73 0%, #fffded 30%, white 50%, #fffded 80%, #f6bb73 100%);
 }
+
 header h2 {
     font-size: 175%;
     color: #800000;
 }
+
 header h3 {
     font-size: 130%;
     font-style: italic;
 }
+
 header img {
     float: left;
     padding: 0 30px;
 }
+
 .shadow {
     text-shadow: 2px 2px 2px #800000;
 }
+
 /* the styles for the navigation menu */
 #nav_menu ul {
     list-style-type: none;
@@ -46,9 +55,11 @@ header img {
     padding: 0;
     position: relative;
 }
+
 #nav_menu ul li {
     float: left;
 }
+
 #nav_menu ul li a {
     display: block;
     width: 160px;
@@ -59,22 +70,27 @@ header img {
     color: white;
     font-weight: bold;
 }
+
 #nav_menu ul ul {
     display: none;
     position: absolute;
     top: 100%;
 }
+
 #nav_menu ul ul li {
     float: none;
 }
+
 #nav_menu ul li:hover > ul {
     display: block;
 }
+
 #nav_menu > ul::after {
     content: "";
     clear: both;
     display: block;
 }
+
 /* the styles for the main content */
 main {
     clear: left;
@@ -86,22 +102,27 @@ section {
     float: right;
     padding: 0 20px 20px 20px;
 }
+
 section h1 {
     color: #800000;
     font-size: 150%;
     padding-top: .5em;
     margin: 0;
 }
+
 section p {
     padding-bottom: .5em;
 }
+
 section blockquote {
     padding: 0 2em;
     font-style: italic;
 }
+
 section ul {
     padding: 0 0 .25em 1.25em;
 }
+
 section li {
     padding-bottom: .35em;
 }
@@ -110,10 +131,12 @@ section li {
 article {
     padding: .5em 0;
 }
+
 article h2 {
     font-size: 115%;
     padding: 0 0 .25em 0;
 }
+
 article img {
     float: right;
     margin: .5em 0 1em 1em;
@@ -126,6 +149,7 @@ aside {
     float: right;
     padding: 0 0 20px 20px;
 }
+
 aside h2 {
     color: #800000;
     font-size: 130%;
@@ -136,6 +160,7 @@ aside h3 {
     font-size: 105%;
     padding-bottom: .25em;
 }
+
 aside img {
     padding-bottom: 1em;
 }
@@ -145,6 +170,7 @@ footer {
     background-color: #931420;
     clear: both;
 }
+
 footer p {
     text-align: center;
     color: white;
@@ -154,11 +180,30 @@ footer p {
 /* New styles for figure and figcaption */
 figure {
     margin: 0; /* Remove default margin for figure */
-    text-align: center; /* Center-align the text in the caption */
+}
+
+figure img {
+    display: block; /* Ensures the image is treated as a block element */
+    margin: 0 auto; /* Centers the image */
 }
 
 figcaption {
     font-size: 90%; /* Adjust font size if necessary */
     color: #555; /* Change text color for better visibility */
-    margin-top: 0.5em; /* Add some space above the caption */
+    margin-top: 0.5em; /* Add space above the caption */
+    text-align: center; /* Center-align the caption text */
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    body {
+        width: 90%; /* Change width for smaller screens */
+    }
+    aside {
+        float: none; /* Stack the aside on smaller screens */
+        width: auto; /* Auto width for flexibility */
+    }
+    section {
+        float: none; /* Stack the section on smaller screens */
+    }
 }
