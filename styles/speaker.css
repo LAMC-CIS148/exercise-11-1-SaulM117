@@ -22,7 +22,8 @@ a:focus, a:hover {
 header {
     padding: 1.5em 0 2em 0;
     border-bottom: 3px solid #931420;
-    background-image: linear-gradient(30deg, #f6bb73 0%, #fffded 30%, white 50%, #fffded 80%, #f6bb73 100%);
+    background-image: linear-gradient(
+        30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
 }
 header h2 {
     font-size: 175%;
@@ -116,18 +117,21 @@ article h2 {
     font-size: 115%;
     padding: 0 0 .25em 0;
 }
+article img {
+    float: right;
+    margin: .5em 0 1em 1em;
+    border: 1px solid black;
+}
 
 /* the styles for the figure and figcaption */
 figure {
     margin: 1em 0; /* Margin for spacing */
     text-align: center; /* Center the caption */
 }
-
 figure img {
     display: block; /* Prevent floating */
     margin: 0 auto; /* Center the image */
 }
-
 figcaption {
     margin-top: 0.5em; /* Space between image and caption */
     font-size: 90%; /* Adjust font size if necessary */
