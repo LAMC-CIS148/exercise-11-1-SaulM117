@@ -171,14 +171,15 @@ figure {
 }
 
 figure img {
-    display: block; /* Ensures the image is treated as a block element */
+    display: block; /* Ensure the image is treated as a block element */
     margin: 0 auto; /* Centers the image */
 }
 
 figcaption {
     font-size: 90%; /* Adjust font size if necessary */
-    color: black; /* Set text color to black */
+    color: black !important; /* Set text color to black */
     margin-top: 0.5em; /* Add space above the caption */
+    clear: both; /* Ensure it is below the image */
 }
 
 /* Responsive Design */
