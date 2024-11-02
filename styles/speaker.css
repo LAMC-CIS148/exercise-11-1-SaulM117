@@ -182,4 +182,17 @@ figcaption {
 }
 
 /* Responsive Design */
-@media (max
+@media (max-width: 768px) {
+    body {
+        width: 90%; /* Change width for smaller screens */
+    }
+
+    aside {
+        float: none; /* Stack the aside on smaller screens */
+        width: auto; /* Auto width for flexibility */
+    }
+
+    section {
+        float: none; /* Stack the section on smaller screens */
+    }
+}
