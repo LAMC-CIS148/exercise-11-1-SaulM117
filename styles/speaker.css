@@ -157,3 +157,13 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.9em;
+    margin-top: 0.5em;
+    text-align: center;
+}
