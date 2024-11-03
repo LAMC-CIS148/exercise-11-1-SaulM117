@@ -103,9 +103,9 @@ main {
 
 /* Section styles */
 section {
-    width: 525px;
-    float: right;
-    padding: 0 20px 20px 20px;
+    width: 525px; /* Keep the width */
+    padding: 0 20px 20px 20px; /* Maintain padding */
+    overflow: auto; /* Clear floats inside the section */
 }
 
 section h1 {
@@ -150,17 +150,18 @@ article img {
 
 /* Figure styles */
 figure {
-    float: right; /* Moves the figure to the right side */
-    margin: 0 0 1em 1em; /* Space between figure and surrounding elements */
-    text-align: right; /* Aligns text within the figure to the right */
+    display: inline-block; /* Allows the figure to sit in the flow */
+    margin-left: 20px; /* Space from the left side */
+    margin-bottom: 1em; /* Space from the bottom */
+    max-width: 40%; /* Adjust width as necessary */
+    text-align: center; /* Centers caption under the image */
 }
 
 figcaption {
     font-style: italic;
     font-size: 0.9em;
     margin-top: 0.5em;
-    text-align: right; /* Align the caption to the right */
-    padding-right: 10px; /* Optional padding for additional spacing */
+    text-align: center; /* Keeps the caption centered */
 }
 
 /* Aside styles */
