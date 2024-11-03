@@ -125,10 +125,7 @@ article img {
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
 }
-figcaption {
-	float: right;
-	margin-top: 0.5em;
-}
+
 /* the styles for the aside */
 aside {
 	width: 215px;
