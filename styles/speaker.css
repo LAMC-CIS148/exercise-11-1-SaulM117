@@ -127,6 +127,7 @@ article img {
 }
 figcaption {
 	float: right;
+	margin-top: 0.5em;
 }
 /* the styles for the aside */
 aside {
