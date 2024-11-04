@@ -125,7 +125,12 @@ article img {
 	margin: .5em 0 1em 1em;
 	border: 1px solid black;
 }
-
+article figcaption {
+	display: block;
+	font-weight: blod;
+	padding-top: .5em;
+	border-bottome: 1x solid blacl;
+}
 /* the styles for the aside */
 aside {
 	width: 215px;
