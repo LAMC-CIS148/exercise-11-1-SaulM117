@@ -131,9 +131,9 @@ article figure {
 }
 article figcaption {
 	display: block;
-	font-weight: blod;
+	font-weight: bold;
 	padding-top: .5em;
-	border-bottome: 1x solid blacl;
+	border-bottom: 1x solid black;
 }
 /* the styles for the aside */
 aside {
