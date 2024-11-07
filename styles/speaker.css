@@ -121,8 +121,7 @@ article h2 {
 	padding: 0 0 .25em 0;
 }
 article img {
-	float: right;
-	margin: .5em 0 1em 1em;
+
 	border: 1px solid black;
 }
 article figure {
@@ -131,7 +130,6 @@ article figure {
 }
 article figcaption {
 	display: block;
-	margin: .5em 0 1em 1em;
 	font-weight: bold;
 	padding-top: .5em;
 	border-bottom: 1px solid black;
