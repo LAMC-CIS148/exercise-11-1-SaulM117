@@ -133,7 +133,7 @@ article figcaption {
 	display: block;
 	font-weight: bold;
 	padding-top: .5em;
-	border-bottom: 1x solid black;
+	border-bottom: 1px solid black;
 }
 /* the styles for the aside */
 aside {
